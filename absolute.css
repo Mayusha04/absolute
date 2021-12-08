@@ -1,13 +1,24 @@
-.new {
-    width: 400px;
-    height: 400px;
-    background-color: aqua;
+#one {
+    color: aqua;
+    position: relative;
 }
-.text {
-    width: 220px;
-    height: 220px;
-    background-color: brown;
+#two {
+    color: brown;
+    position: sticky;
+    top: +40px;
+
+    
+}
+#three {
+    color: blue;
     position: absolute;
     left: +30px;
-    top: 20px;
+}
+p {
+    margin: 100px;
+}
+span {
+    color:red;
+    font-size: 25px;
+    font-style: italic bold;
 }
